@@ -6,5 +6,7 @@ import (
 
 func main() {
 	fmt.Println("Welcome to GuessTrain's leetcode journey")
-	fmt.Println("test")
+
+	testLetter := "369"
+	fmt.Println(letterCombinations(testLetter))
 }
