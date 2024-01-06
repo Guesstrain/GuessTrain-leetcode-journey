@@ -46,4 +46,39 @@ func main() {
 	// nums := []int{100, 101, 102, -1, -88, -22, 200}
 	// fmt.Println(maxSubArray(nums))
 
+	//31. 下一个排列
+	// nums := []int{1, 5, 1}
+	// fmt.Println(nextPermutation(nums))
+
+	//32. 最长有效括号
+	// s := ")()())"
+	// fmt.Println(longestValidParenthesesV3(s))
+
+	//33. 搜索旋转排序数组
+	// nums := []int{1, 3}
+	// fmt.Println(search(nums, 3))
+
+	//34. 在排序数组中查找元素的第一个和最后一个位置
+	// nums := []int{1, 2, 3}
+	// fmt.Println(searchRange(nums, 2))
+
+	//38. 外观数列
+	// n := 4
+	// fmt.Println(countAndSayV2(n))
+
+	//39. 组合总数
+	// c := []int{8, 7, 4, 3}
+	// fmt.Println(combinationSumV2(c, 11))
+
+	//40. 组合总数2
+	// c := []int{10, 1, 2, 7, 6, 1, 5}
+	// fmt.Println(combinationSum2(c, 8))
+
+	//41. 缺失的第一个整数
+	// c := []int{3, 4, -1, 1}
+	// fmt.Println(firstMissingPositiveV2(c))
+
+	//42. 接雨水
+	c := []int{0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1}
+	fmt.Println(trapV3(c))
 }
